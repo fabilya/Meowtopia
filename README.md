@@ -5,7 +5,7 @@
 ## Установка проекта:
  * Клонироуйте репозиторий:
 
-`git clone git@github.com:sukhartsev-s/kittygram_final.git`
+`git clone git@github.com:fabilya/kittygram_final.git`
 
 `cd kittygram`
 
