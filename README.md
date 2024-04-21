@@ -101,11 +101,13 @@ sudo docker compose -f docker-compose.production.yml exec backend cp -r /app/col
 `sudo nano /etc/nginx/sites-enabled/default`
 
 * Add location settings in the server section
-* 
-``location / {
+
+```
+location / {
     proxy_set_header Host $http_host;
     proxy_pass http://127.0.0.1:9000;
-}``
+}
+```
 
 * Check the functionality of the configurations and restart Nginx:
 ```
